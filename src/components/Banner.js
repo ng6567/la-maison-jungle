@@ -1,4 +1,11 @@
+import logo from '../assets/logo.png'
+import '../styles/Banner.css'
+
 function Banner () {
-    return <h1>La maison Jungle</h1>
+return <div className='lmj-banner'>
+    <img src={logo} alt='La maison Jungle' className='lmj-logo'/>
+    <h1 className='lmj-title'>La maison jungle</h1>
+</div>
+    
 }
 export default Banner
